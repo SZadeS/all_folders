@@ -1,0 +1,10 @@
+nav{background-color: black}
+img{width: 50%; height:50%}
+.done{color:green; text-decoration:line-through}
+.urgent{font-size:30px}
+li.done{color:orange;text-decoration:line-through
+h1.done(color:red)}
+#my-div{color:pink}
+#my-div p {color:green}
+h2{color:rgb(255, 100, 200) !important}
+h2{color:green}

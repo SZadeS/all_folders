@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- #the equals signs allows it to display to the screen. AND it also knows its ruby syntax -->
+  <title><%= @title %></title>
+</head>
+<body>
+	<nav>
+	  <a href="/">Posts</a>
+	  <a href="/new">New Post</a>
+	</nav>
+  <h1>Welcome</h1>
+  <% @posts.each do |post| %>
+  <div class="">
+    <h1><%= post[:title] %></h1>
+    <p><%= post[:body] %></p>
+  </div>
+  <% end %>
+
+</body>
+</html>

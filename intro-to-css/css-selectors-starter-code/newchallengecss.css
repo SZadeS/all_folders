@@ -1,0 +1,22 @@
+
+
+.headings li {
+  display:inline-block;
+  align:center;
+  left:200px
+}
+
+#facepic {
+  border-radius: 80%;
+  border: 20px;
+  left:40px
+}
+
+.h5 {display: inline-block;
+
+ }
+
+.topbox {
+  border: solid 5px pink;
+  display:inline-block;
+}

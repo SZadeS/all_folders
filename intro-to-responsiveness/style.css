@@ -1,0 +1,19 @@
+.example{
+  height:400px;
+  width:45%;
+  background-color:orange;
+  border: solid black;
+  display:inline-block;
+}
+
+@media screen and (min-width:480px) and (max-width:960px){
+  body{
+    background-color: lightgreen;
+  }
+}
+@media screen and (max-width:400px){
+  .example{
+    width: 100%;
+  }
+.hidden-div{display:none;}
+}
